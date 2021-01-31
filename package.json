@@ -1,18 +1,29 @@
 {
   "name": "@vicentecalfo/star-trek-planet-uuid",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Generate unique random IDs that contain planet names from the Star Trek universe. ",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "dev": "ts-node index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vicentecalfo/star-trek-planet-uuid.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Vicente Calfo <vicentecalfo@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "startrek",
+    "planets",
+    "uuid",
+    "funny",
+    "memorable"
+  ],
   "bugs": {
     "url": "https://github.com/vicentecalfo/star-trek-planet-uuid/issues"
   },
