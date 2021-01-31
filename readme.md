@@ -1,5 +1,6 @@
 # @vicentecalfo/star-trek-planet-uuid
-<img height="60" width="60" src="https://unpkg.com/simple-icons@v4/icons/startrek.svg" />
+
+<img src="https://unpkg.com/simple-icons@v4/icons/startrek.svg" width="60">
 
 Generate unique random IDs that contain planet names from the Star Trek universe. 
 You will notice that the generated IDs are not technically UUID or GUID. Obviously this package was developed just for fun.
